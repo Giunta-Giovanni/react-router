@@ -10,7 +10,7 @@ export default function Header() {
                     <div className="col d-flex">
                         <Logo />
                     </div>
-                    <div className="col">
+                    <div className="col box-nav">
                         <NavBar />
                     </div>
                 </div>
