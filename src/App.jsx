@@ -1,6 +1,9 @@
 // importa React Router Dom
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+// importa i layout
+import DefaultLayout from "./components/DefaultLayout";
+
 // importa le pagine
 import HomePage from "./route/HomePage";
 import AboutPage from "./route/AboutPage";
@@ -11,9 +14,12 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/posts" element={<PostsPage />} />
+        <Route element={<DefaultLayout />}>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/posts" element={<PostsPage />} />
+        </Route>
+
       </Routes>
     </BrowserRouter>
   );

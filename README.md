@@ -18,7 +18,7 @@ Creiamo il frontend del nostro Blog e le sue pagine!
     - una pagina “chi siamo”;√
     - una pagina con la lista dei post;√
     
-3. Implementiamo una navbar in comune a tutte le pagine per poter navigare tra loro
+3. Implementiamo una navbar in comune a tutte le pagine per poter navigare tra loro√
 
 <!-- Bonus -->
 1. Centralizzare la Navbar grazie a un Layout
