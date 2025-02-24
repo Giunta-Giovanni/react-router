@@ -1,4 +1,7 @@
 /* GENERAL */
+header {
+    margin-bottom: 20px;
+}
 
 li {
     list-style: none;
@@ -55,4 +58,113 @@ nav ul {
 .page-link .active {
     color: red;
 
+}
+
+
+.section-articoli h2 {
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.form-articoli {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: palegoldenrod;
+    padding: 30px;
+    margin: 30px;
+}
+
+.form-articoli input,
+.form-articoli textarea {
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.box-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.autore {
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.box-articoli {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.toast {
+    margin: 10px;
+}
+
+.box-articolo-image {
+    margin: 20px 0;
+}
+
+.box-articolo-image img {
+    width: 100%;
+    border: 5px solid #f5f5dc;
+    border-radius: 30% 10% 30% 10%;
+}
+
+.category-list {
+    background-color: #e2d1b63e;
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.category-list li {
+    margin-right: 30px;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, #D8C3A5, #FAF3E0);
+    /* Beige → Bianco panna */
+    color: #8c885e;
+    /* Verde oliva */
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #556B2F;
+    /* Verde oliva scuro */
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-nav a:hover {
+    color: #6B8E23;
+    /* Verde oliva più chiaro */
 }

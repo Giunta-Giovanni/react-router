@@ -21,5 +21,5 @@ Creiamo il frontend del nostro Blog e le sue pagine!
 3. Implementiamo una navbar in comune a tutte le pagine per poter navigare tra loro√
 
 <!-- Bonus -->
-1. Centralizzare la Navbar grazie a un Layout
-2. Gestire la classe active
+1. Centralizzare la Navbar grazie a un Layout√
+2. Gestire la classe active√
