@@ -1,17 +1,19 @@
 import { NavLink } from "react-router-dom"
-export default function NavBar() {
+export default function NavBar(props) {
+    const { links } = props
+    console.log(links)
     return (
         <nav>
             <ul>
-                <li className="page-link">
-                    <NavLink to="/">Home</NavLink>
-                </li>
-                <li className="page-link">
-                    <NavLink to="/about">Chi Siamo</NavLink>
-                </li>
-                <li className="page-link">
-                    <NavLink to="/posts">Posts</NavLink>
-                </li>
+                {links.map(link => (
+                    <li key={link.id} className="page-link">
+                        <NavLink to={link.url}>{link.text}</NavLink>
+
+
+                    </li>
+
+                ))}
+
             </ul>
         </nav>
 
