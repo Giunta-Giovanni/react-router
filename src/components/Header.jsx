@@ -1,11 +1,8 @@
 import NavBar from "./NavBar";
 import Logo from "./Logo";
 
-const links = [
-    { id: 1, text: 'Home', url: '/' },
-    { id: 2, text: 'About', url: '/about' },
-    { id: 3, text: 'Posts', url: '/posts' },
-];
+
+import links from "../data/navLink";
 
 export default function Header() {
 
