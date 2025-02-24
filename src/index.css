@@ -1,0 +1,31 @@
+/* GENERAL */
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-logo {
+    width: 50px;
+}
+
+.box-logo img {
+    width: 100%;
+}
+
+/* NavBar */
+nav ul {
+    display: flex;
+}
+
+.page-link {
+    margin: auto 10px;
+}
+
+.page-link .active {
+    color: red;
+}
