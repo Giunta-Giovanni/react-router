@@ -13,10 +13,11 @@ Currently, two official plugins are available:
 Creiamo il frontend del nostro Blog e le sue pagine!
 
 1. Installiamo React Router DOM: npm install react-router-dom √
-2. Definiamo almeno 3 pagine: 
-    - una homepage;
-    - una pagina “chi siamo”;
-    - una pagina con la lista dei post;
+2. Definiamo almeno 3 pagine:√
+    - una homepage;√
+    - una pagina “chi siamo”;√
+    - una pagina con la lista dei post;√
+    
 3. Implementiamo una navbar in comune a tutte le pagine per poter navigare tra loro
 
 <!-- Bonus -->
