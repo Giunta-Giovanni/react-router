@@ -8,6 +8,7 @@ import DefaultLayout from "./components/DefaultLayout";
 import HomePage from "./route/HomePage";
 import AboutPage from "./route/AboutPage";
 import PostsPage from "./route/PostsPage";
+import AddPostPage from "./route/AddPostPage";
 
 
 export default function App() {
@@ -18,6 +19,9 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/posts" element={<PostsPage />} />
+          <Route path="/posts/addpost" element={<AddPostPage />} />
+
+
         </Route>
 
       </Routes>

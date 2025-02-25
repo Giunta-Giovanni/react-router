@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 
 
 <!-- Esercizio -->
+<!-- PARTE 1 -->
 Creiamo il frontend del nostro Blog e le sue pagine!
 
 1. Installiamo React Router DOM: npm install react-router-dom √
@@ -23,3 +24,20 @@ Creiamo il frontend del nostro Blog e le sue pagine!
 <!-- Bonus -->
 1. Centralizzare la Navbar grazie a un Layout√
 2. Gestire la classe active√
+
+<!-- PARTE 2 -->
+
+Dividiamo il nostro post page in:
+- createPostPage
+- My posts
+
+Completiamo il nostro routing con l’aggiunta delle pagine di dettaglio!
+1. creiamo una pagina detta single post
+Aggiungiamo i link alla lista dei post
+2. aggiungiamo un link ai post che ci portano sulla pagina del singolo post 
+Facciamo quindi in modo di raggiungere la pagina di dettaglio del singolo post
+
+
+<!-- Bonus -->
+Proviamo a inserire nella pagina di dettaglio una navigazione che ci consenta di andare al post precedente e a quello successivo;
+tutte le cose in più che abbiamo fatto nel LC del mattino.
