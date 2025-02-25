@@ -8,8 +8,6 @@ export default function NavBar(props) {
                 {links.map(link => (
                     <li key={link.id} className="page-link">
                         <NavLink to={link.url}>{link.text}</NavLink>
-
-
                     </li>
 
                 ))}
