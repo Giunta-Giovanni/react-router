@@ -4,6 +4,8 @@ import axios from "axios";
 // importiamo useState e lo useEffect
 import { useState, useEffect } from "react";
 
+// importiamo Link
+import { Link, } from "react-router-dom";
 
 // endpoint
 const endpoint = 'http://localhost:3000/posts'
@@ -79,6 +81,12 @@ export default function PostsPage() {
 
                                 {/* contenitore header */}
                                 <div className="toast-header">
+                                    {/* link in single post page */}
+                                    <div className="post-zoom">
+                                        <Link to={`/posts/post/${articolo.id}`}>
+                                            <i className="fa-solid fa-magnifying-glass"></i>
+                                        </Link>
+                                    </div>
                                     {/* titolo */}
                                     <strong className="me-auto">{articolo.title}</strong>
 

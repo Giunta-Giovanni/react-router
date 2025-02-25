@@ -92,6 +92,11 @@ nav ul {
     padding-top: 30px;
 }
 
+.post-zoom {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 .autore {
     text-align: right;
     text-decoration: underline;

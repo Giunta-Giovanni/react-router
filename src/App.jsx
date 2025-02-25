@@ -9,6 +9,7 @@ import HomePage from "./route/HomePage";
 import AboutPage from "./route/AboutPage";
 import PostsPage from "./route/PostsPage";
 import AddPostPage from "./route/AddPostPage";
+import SinglePostPage from "./route/SinglePostPage";
 
 
 export default function App() {
@@ -16,15 +17,19 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<DefaultLayout />}>
-          <Route path="/" element={<HomePage />} />
+          <Route index element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/posts" element={<PostsPage />} />
-          <Route path="/posts/addpost" element={<AddPostPage />} />
+          <Route path="/posts">
+            <Route index element={<PostsPage />} />
+            <Route path="addpost" element={<AddPostPage />} />
+            <Route path="post/:id" element={<SinglePostPage />} />
+          </Route>
+
 
 
         </Route>
 
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
