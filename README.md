@@ -28,17 +28,18 @@ Creiamo il frontend del nostro Blog e le sue pagine!
 <!-- PARTE 2 -->
 
 Dividiamo il nostro post page in:
-- createPostPage
-- My posts
-una volta inviato il form tramite useNavigate riportami alla pagina dei post
+- createPostPage√
+- My posts√
+una volta inviato il form tramite useNavigate riportami alla pagina dei post√
 
 Completiamo il nostro routing con l’aggiunta delle pagine di dettaglio!
-1. creiamo una pagina detta single post
-Aggiungiamo i link alla lista dei post
-2. aggiungiamo un link ai post che ci portano sulla pagina del singolo post 
-Facciamo quindi in modo di raggiungere la pagina di dettaglio del singolo post
+1. creiamo una pagina detta DetailPostPage√
+Aggiungiamo i link alla lista dei post√
+2. aggiungiamo un link ai post che ci portano sulla pagina del singolo post√
+Facciamo quindi in modo di raggiungere la pagina di dettaglio del singolo post√
 
 
 <!-- Bonus -->
 Proviamo a inserire nella pagina di dettaglio una navigazione che ci consenta di andare al post precedente e a quello successivo;
+
 tutte le cose in più che abbiamo fatto nel LC del mattino.

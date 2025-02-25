@@ -8,8 +8,7 @@ import { useState, useEffect } from "react";
 import { Link, } from "react-router-dom";
 
 // endpoint
-const endpoint = 'http://localhost:3000/posts'
-
+const endpoint = 'http://localhost:3000/posts';
 
 export default function PostsPage() {
 
