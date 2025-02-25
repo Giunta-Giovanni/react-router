@@ -115,7 +115,7 @@ export default function PostsPage() {
                                     <p>{articolo.content}</p>
                                     {/* immagine */}
                                     <div className="box-articolo-image">
-                                        <img src={articolo.image} alt={articolo.title} />
+                                        <img src={articolo.image || null} alt={articolo.title} />
                                     </div>
 
 

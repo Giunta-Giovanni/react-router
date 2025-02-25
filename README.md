@@ -30,6 +30,7 @@ Creiamo il frontend del nostro Blog e le sue pagine!
 Dividiamo il nostro post page in:
 - createPostPage
 - My posts
+una volta inviato il form tramite useNavigate riportami alla pagina dei post
 
 Completiamo il nostro routing con l’aggiunta delle pagine di dettaglio!
 1. creiamo una pagina detta single post

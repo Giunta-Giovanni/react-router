@@ -3,6 +3,9 @@ import axios from "axios";
 
 // importiamo useState
 import { useState } from "react";
+// importiamo useNavigate
+import { useNavigate } from "react-router-dom";
+
 
 // endpoint
 const endpoint = 'http://localhost:3000/posts'
@@ -17,6 +20,9 @@ const initialFormData = {
 }
 
 export default function AddPostPage() {
+
+    // destrutturiamo useNavigate
+    const navigate = useNavigate();
 
     // creiamo una variabile di stato che sarà riempita dell'oggetto sopra indicato
     const [formData, setFormData] = useState(initialFormData);
@@ -47,6 +53,10 @@ export default function AddPostPage() {
         // fai una richiesta in post con endpoint e i dati che ti invio corrispondono a form data
         axios.post(endpoint, formData)
             .then(res => {
+
+                // Una volta inviato il form riportami alla pagina dei post
+
+                navigate("/posts");
 
                 // SOLO SE FORM E OUTPUT SONO NELLA STESSA PAGINA
                 // uso la risposta api per prendere gli articoli e gli aggiungo i nuovi dati del form 
