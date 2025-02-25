@@ -10,6 +10,7 @@ import AboutPage from "./route/AboutPage";
 import PostsPage from "./route/PostsPage";
 import AddPostPage from "./route/AddPostPage";
 import SinglePostPage from "./route/SinglePostPage";
+import NotFoundPage from "./route/NotFoundPage";
 
 
 export default function App() {
@@ -24,6 +25,8 @@ export default function App() {
             <Route path="addpost" element={<AddPostPage />} />
             <Route path="post/:id" element={<SinglePostPage />} />
           </Route>
+          <Route path="*" element={<NotFoundPage />} />
+
 
 
 
