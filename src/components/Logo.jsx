@@ -3,7 +3,7 @@ export default function Logo() {
     return (
         <div className="box-logo">
             <Link to={"/"}>
-                <img src="./public/route.svg" alt="route-logo" />
+                <img src="./src/assets/route.svg" alt="route-logo" />
             </Link>
 
         </div>
